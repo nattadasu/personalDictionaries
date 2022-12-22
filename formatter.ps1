@@ -1,4 +1,4 @@
-# Recurse directories with [a-z]{2,3}_[A-Z]{2,3} pattern, and open all .txt files
+﻿# Recurse directories with [a-z]{2,3}_[A-Z]{2,3} pattern, and open all .txt files
 
 $dir = Get-ChildItem -Path . -Recurse -Directory
 

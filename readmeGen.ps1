@@ -1,4 +1,4 @@
-$json = Get-Content -Path .\sources.json -Raw | ConvertFrom-Json
+﻿$json = Get-Content -Path .\sources.json -Raw | ConvertFrom-Json
 $json = $json | Sort-Object -Property langCode
 
 $markdown = @"
@@ -76,4 +76,4 @@ $markdown += @"
 This repository is licensed under the [Unlicense](http://unlicense.org/). However, the dictionaries hosted in this repository are not necessarily in the public domain. Please check the license of each dictionary included in their respective language folders.
 "@
 
-$markdown | Out-File -FilePath .\README.md
+$markdown | Out-File -FilePath .\README.md -Encoding utf8
