@@ -1,0 +1,33 @@
+[
+  {
+    "langCode": "id_ID",
+    "native": "Bahasa Indonesia",
+    "english": "Indonesian",
+    "dictPath": "id_ID.main.dict",
+    "sources": [
+      {
+        "uri": "https://github.com/perlancar/perl-WordList-ID-KBBI",
+        "name": "WordList::ID::KBBI",
+        "license": "Artistic-1.0 AND GPL-1.0-or-later"
+      },
+      {
+        "uri": "https://github.com/geovedi/indonesian-wordlist",
+        "name": "geovedi/indonesian-wordlist",
+        "license": "CC0"
+      }
+    ]
+  },
+  {
+    "langCode": "en_US",
+    "native": "English",
+    "english": "English",
+    "dictPath": "en_US.main.dict",
+    "sources": [
+      {
+        "uri": "https://github.com/jeremy-rifkin/Wordlist",
+        "name": "jeremy-rifkin/Wordlist",
+        "license": "MIT"
+      }
+    ]
+  }
+]
